@@ -3,152 +3,142 @@
 <head>
     <meta charset="utf-8" />
     <title>Escape</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> <!--подключение шрифта Lora-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&display=swap" rel="stylesheet"><!--подключение шрифта Oxygen-->
 </head>
 <body>
-  <header>
-    <span>Escape.</span> <br /> 
+  <header class="forheader">
+    <span class="forheader-span">Escape.</span> 
   <!--следующие 4 строчки это ссылки вверху страницы-->
-  <nav>
-    <a href="https://www.google.com/">HOME</a>
-    <a href="https://www.google.com/">CATEGORIES</a>
-    <a href="https://www.google.com/">ABOUT US</a>
-    <a href="https://www.google.com/">CONTACT</a>
+  <nav class="foreheader-navigation">
+    <a class="foreheader-navigation-color" href="https://www.google.com/" >HOME</a>
+    <a class="foreheader-navigation-color" href="https://www.google.com/">CATEGORIES</a>
+    <a class="foreheader-navigation-color" href="https://www.google.com/">ABOUT US</a>
+    <a class="foreheader-navigation-color" href="https://www.google.com/">CONTACT</a>
   </nav>
   </header>
   <div>
-    <h1>Let's do it together</h1>
+    <h1 class="hat">Let's do it together</h1>
     <!--подзаголовок-->
-    <span>We travel the world in search of stories. Come along for the ride</span>
+    <span class="underhat">We travel the world in search of stories. Come along for the ride</span>
+    <form action="https://www.google.com/">
+      <button class="c-button">View Latests Posts</button>
+    </form>
+    <img class="canyon" src="images/canyon.jpg" alt="canyon">
   </div>
   <!--создаём блок с ссылками под заголовквом, то есть м\у заголовком и основным текстом-->
   <div>
-    <form action="https://www.google.com/">
-      <button>View Latests Posts</button>
-    </form>
-    <a href="https://www.google.com/" >Photography</a>
-    <a href="https://www.google.com/" >Relaxation</a>
-    <a href="https://www.google.com/" >Vacation</a>
-    <a href="https://www.google.com/" >Travel</a>
-    <a href="https://www.google.com/" >Adventure</a>
+    <a class="links-to-articles" href="https://www.google.com/" >Photography</a>
+    <a class="links-to-articles" href="https://www.google.com/" >Relaxation</a>
+    <a class="links-to-articles" href="https://www.google.com/" >Vacation</a>
+    <a class="links-to-articles" href="https://www.google.com/" >Travel</a>
+    <a class="links-to-articles" href="https://www.google.com/" >Adventure</a>
   </div>
-  <!--создаём целую секцию, где будет два блока, у каждого своя картинка-->
+  <!--создаём секцию, где будет два блока, у каждого своя картинка-->
   <section>
     <h2>
       Featured Posts
     </h2>
-    <section>
+    <article>
+      <img src="images/northbroght.png" alt="northbright">
+      <span><a href="the-road-ahead.html"> The Road Ahead</a></span>
+      <span>The road ahead might be paved - it might not be.</span>
       <div>
-        <img src="images/northbroght.png" alt="northbright">
-        <span><a href="the-road-ahead.html"> The Road Ahead</a></span>
-        <span>The road ahead might be paved - it might not be.</span>
-        <div>
-          <img src="images/someman.jpg" alt="someman">
-          <a href="someman.jpg">Mat Vogels</a>
-          <span>September 25,2015</span>
-        </div>
+        <img src="images/someman.jpg" alt="someman">
+        <a href="someman.jpg">Mat Vogels</a>
+        <span>September 25,2015</span>
       </div>
-    </section> 
-    <section>
-      <h2>
-          From Top Down
-      </h2>
+    </article>       
+    <article>
+      <span><a href="the-road-ahead.html"></a>From Top Down</a></span>      
+      <img src="images/chineselight.png" alt="chineselight">
+      <span>Once a year, go someplace you’ve never been before.</span> 
       <div>
-        <img src="images/chineselight.png" alt="chineselight">
-        <span>Once a year, go someplace you’ve never been before.</span> 
-        <div>
-          <img src="images/secondman.jpg" width="24" height="24" alt="secondman">
-          <a href="https://www.google.com/">William Wong</a>
-          <span>September 25,2015</span> 
-        </div>> 
-      </div>
-    </section>
+        <img src="images/secondman.jpg" width="24" height="24" alt="secondman">
+        <a href="https://www.google.com/">William Wong</a>
+        <span>September 25,2015</span> 
+      </div> 
+    </article> 
   </section>
   <section>
     <!--название для второго блока-->
     <h2>
       Most Recent
     </h2>
-    <!--первый из шести блоков второго блока-->
-    <section>
+    <!--первый из шести блоков второго блока-->    
+    <div>
+      <img src="images/airballoon.jpg" alt="airballoon">
+      <span> Still Standing Tall</span> 
+      <span>Life begins at the end of your comfort zone.</span>
       <div>
-        <img src="images/airballoon.jpg" alt="airballoon">
-        <span> Still Standing Tall</span> 
-        <span>Life begins at the end of your comfort zone.</span>
-        <div>
-          <img src="images/secondman.jpg" width="24" height="24" alt="secondman">
-          <a href="https://www.google.com/">William Wong</a>
-          <span>9/25/2015</span> 
-        </div> 
-      </div>
-    </section>
-    <!--второй из шести блоков-->
-    <section>
+        <img src="images/secondman.jpg" width="24" height="24" alt="secondman">
+        <a href="https://www.google.com/">William Wong</a>
+        <span>9/25/2015</span> 
+      </div> 
+    </div>  
+    <!--второй из шести блоков--> 
+    <div>
+      <img src="images/mostlondon.png" alt="mostslondon">
+      <span> Sunny Side Up </span>
+      <span> Life begins at the end of your comfort zone.</span>
       <div>
-        <img src="images/mostlondon.png" alt="mostslondon">
-        <span> Sunny Side Up </span>
-        <span> Life begins at the end of your comfort zone.</span>
-        <div>
-          <img src="images/someman.jpg" width="24" height="24" alt="someman">
-          <a href="https://www.google.com/">Mat Vogels</a>
-          <span>9/25/2015</span> 
-        </div>> 
+        <img src="images/someman.jpg" width="24" height="24" alt="someman">
+        <a href="https://www.google.com/">Mat Vogels</a>
+        <span>9/25/2015</span> 
       </div>
-    </section>
-    <!--третий блок из шести-->
-    <section>
+    </div>
+      <!--третий блок из шести-->
+    <div>
+      <img src="images/watersurface.png" alt="watersurface">
+      <span>  Water Falls </span>
+      <span> We travel not to escape life, but for life not to escape us.</span>
       <div>
-        <img src="images/watersurface.png" alt="watersurface">
-        <span>  Water Falls </span>
-        <span> We travel not to escape life, but for life not to escape us.</span>
-        <div>
-          <img src="images/someman.jpg" width="24" height="24" alt="someman">
-          <a href="https://www.google.com/">Mat Vogels</a>
-          <span>9/25/2015</span> 
-        </div> 
-      </div>
-    </section>
+        <img src="images/someman.jpg" width="24" height="24" alt="someman">
+        <a href="https://www.google.com/">Mat Vogels</a>
+        <span>9/25/2015</span> 
+      </div> 
+    </div>    
     <!--четвертый блок-->
-    <section>
+    <div>
+      <img src="images/waves.png" alt="waves">
+      <span>Through the Mist</span>
+      <span> Travel makes you see what a tiny place you occupy in the world.</span> 
       <div>
-        <img src="images/waves.png" alt="waves">
-        <span>Through the Mist</span>
-        <span> Travel makes you see what a tiny place you occupy in the world.</span> 
-        <div>
-          <img src="images/secondman.jpg" width="24" height="24" alt="secondman">
-          <a href="https://www.google.com/">William Wong</a>
-          <span>9/25/2015</span> 
-        </div>
+        <img src="images/secondman.jpg" width="24" height="24" alt="secondman">
+        <a href="https://www.google.com/">William Wong</a>
+        <span>9/25/2015</span> 
       </div>
-    </section>
+    </div>  
     <!--пятый блок-->
-    <section>
+    <div>
+      <img src="images/fog.png" alt="fog">
+      <span>Awaken Early</span>
+      <span>Not all those who wander are lost.</span>
       <div>
-        <img src="images/fog.png" alt="fog">
-          <span>Awaken Early</span>
-          <span>Not all those who wander are lost.</span><br />
+        <img src="images/someman.jpg" width="24" height="24" alt="no picture">
+        <a href="https://www.google.com/">Mat Vogels</a>
+        <span>9/25/2015</span> 
+       </div> 
+    </div>
+    <!--шестой блок-->
+    <div>
+      <img src="images/skyfall.png" alt="no picture">
+        <span>Try it Always</span>
+        <span>The world is a book, and those who do not travel read only one page.</span><br />
         <div>
           <img src="images/someman.jpg" width="24" height="24" alt="no picture">
           <a href="https://www.google.com/">Mat Vogels</a>
           <span>9/25/2015</span> 
-         </div> 
-      </div>
-    </section>
-    <!--шестой блок-->
-    <section>
-      <div>
-        <img src="images/skyfall.png" alt="no picture">
-          <span>Try it Always</span><br />
-          <span>The world is a book, and those who do not travel read only one page.</span><br />
-          <div>
-            <img src="images/someman.jpg" width="24" height="24" alt="no picture">
-            <a href="https://www.google.com/">Mat Vogels</a>
-            <span>9/25/2015</span> 
-          </div> 
-      </div>
-    </section>
-  </section>
+        </div> 
+    </div>
+  </section> 
   <footer> 
-    <span>Escape.</span><br />
+    <span>Escape.</span>
     <img src="images/littlefooter.png" width="1000" height="24" alt="littlefooter">
     <div>
       <a href="https://www.google.com/">HOME</a>

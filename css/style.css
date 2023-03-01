@@ -1,0 +1,82 @@
+.forheader
+{
+    color: #cc3030;
+    font-weight: 400;
+    font-style: normal;
+}
+.forheader-span
+{
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.foreheader-navigation-color
+{
+    font-family: 'Oxygen', sans-serif;   
+    font-size: 12px;
+    line-height: 20px;
+    color: #cc3030;
+    text-decoration: none;
+}
+
+.hat
+{    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    color: #000;
+}
+
+.underhat
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.canyon
+{
+    height: 500px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.jpg);
+    border-radius: 0px; 
+}
+
+.c-button
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    appearance: none;
+    border: 0;
+    border-radius: 3px;
+    background: #DD783F;
+    padding: 8px 16px;
+
+}
+
+.links-to-articles
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #768088;
+}
+
+.class-for-serif-Oxygen
+{
+    font-family: 'Oxygen', sans-serif;
+}
