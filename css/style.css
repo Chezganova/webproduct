@@ -80,3 +80,87 @@
 {
     font-family: 'Oxygen', sans-serif;
 }
+
+.preheader
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.forpictures
+{
+    height: 280px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border-radius: 3px;
+    background: #ffffff;  
+}
+
+.forpreheader
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.forunderheader
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+
+}
+
+.forunderheader-user
+{
+    font-size: 12px;
+    text-decoration: none;
+    background: #ffffff;
+}
+
+.forpictures-second-half
+{
+    height: 150px;
+    border-radius: 0px;
+    background:#ffffff;
+}
+
+.forpreheader-second
+{
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+}
+
+.forunderheader-second
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A;
+}
+
+.forunderheader-user-data
+{
+    font-size: 11px;
+    line-height: 35px;
+}
+
+.forpictures-footer
+{
+    height: 89px;
+    background: #ffffff;
+    border-radius: 0px;
+}
